@@ -1,0 +1,11 @@
+[package]
+name = "lau-chaos-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Chaos theory and nonlinear dynamics: Lyapunov exponents, fractals, strange attractors, bifurcation analysis, symbolic dynamics, and agent unpredictability"
+repository = "https://github.com/SuperInstance/lau-chaos-theory"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
